@@ -22,6 +22,22 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to show disaster warnings nearby</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need background location access to alert you of approaching disasters even when the app is closed</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need background location to alert you of approaching disasters</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We use Bluetooth for offline messaging</string>
+	<key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>location</string>
+        <string>processing</string>
+    </array>
+
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
